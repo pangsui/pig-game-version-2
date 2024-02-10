@@ -241,7 +241,7 @@ main {
     margin-right: 0.5rem;
   }
   .current-label {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 5rem;
   }
 
@@ -249,7 +249,7 @@ main {
     font-size: 2.5rem;
   }
   .name {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-left: 5rem;
   }
 
@@ -264,12 +264,21 @@ main {
   }
   .btn--roll {
     top: 27rem;
+    font-size: 15px;
   }
   .btn--hold {
     top: 32rem;
+    font-size: 15px;
+  }
+  .btn--new {
+    font-size: 15px;
   }
   .player {
     grid-gap: 4rem;
+  }
+  .btn::first-letter {
+    font-size: 1.9rem;
+    margin-right: 0.9rem;
   }
 }
 @media (min-width: 220px) and (max-width: 359px) {
@@ -303,8 +312,15 @@ main {
   }
   .btn--roll {
     top: 27rem;
+    font-size: 14px;
   }
   .btn--hold {
     top: 32rem;
+    font-size: 14px;
+  }
+
+  .btn::first-letter {
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
   }
 }
