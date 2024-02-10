@@ -173,7 +173,7 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  color: #444;
+  color: #fff;
   font-size: 1.4rem;
   top: 55rem;
 }
