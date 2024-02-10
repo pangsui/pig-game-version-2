@@ -168,7 +168,15 @@ main {
 .hidden {
   display: none;
 }
-
+/* footer */
+.copyright {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  font-size: 1.4rem;
+  top: 55rem;
+}
 /* Tablets */
 @media (max-width: 768px) {
   .main {
@@ -232,6 +240,7 @@ main {
     font-weight: 280;
   }
 }
+
 /* smart phones */
 /* Tablets */
 @media (min-width: 360px) and (max-width: 767px) {
